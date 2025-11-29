@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azhaan - Tech Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-custom fixed-top shadow">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+            <li class="nav-item"><a class="nav-link active" href="blog.html">Blogs</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="blogCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1200" class="d-block w-100 carousel-img" alt="Coding">
+          <div class="carousel-caption d-none d-md-block bg-caption-blur">
+            <h5>My Coding Journey</h5>
+            <p>From "Hello World" to complex algorithms.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=1200" class="d-block w-100 carousel-img" alt="Design">
+          <div class="carousel-caption d-none d-md-block bg-caption-blur">
+            <h5>Web Design Principles</h5>
+            <p>Making things look as good as they work.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80&w=1200" class="d-block w-100 carousel-img" alt="Lifestyle">
+          <div class="carousel-caption d-none d-md-block bg-caption-blur">
+            <h5>Student Life Balance</h5>
+            <p>Managing college, code, and creativity.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#blogCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#blogCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <div class="container section-padding">
+        <h1 class="text-center mb-5 fw-bold text-highlight">Latest Articles</h1>
+        
+        <div class="row g-4">
+            
+            <div class="col-lg-6">
+                <div class="blog-card h-100">
+                    <h3 class="fw-bold text-light">How I Started My Coding Journey</h3>    
+                    <p class="text-muted mt-3">Ever since I wrote my first “Hello World” program, I realized coding isn’t just about solving problems — it’s about creating something out of nothing. I began with simple YouTube tutorials and free resources...</p>
+                    <a href="#" class="btn btn-primary mt-3">Read More</a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="blog-card h-100">
+                    <h3 class="fw-bold text-light">Building My First Real Project</h3>    
+                    <p class="text-muted mt-3">My first real project wasn’t perfect, but it taught me more than any tutorial ever could. I struggled with layout issues, responsive design, and making the UI look clean...</p>
+                    <a href="#" class="btn btn-primary mt-3">Read More</a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="blog-card h-100">
+                    <h3 class="fw-bold text-light">Balancing College, Learning, and Life</h3>    
+                    <p class="text-muted mt-3">Balancing college work with self-learning isn’t easy, but I’ve learned to take it one step at a time. Small habits like studying consistently, taking breaks, and working on personal projects help...</p>
+                    <a href="#" class="btn btn-primary mt-3">Read More</a>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="blog-card h-100">
+                    <h3 class="fw-bold text-light">Why I Love Web Development</h3>   
+                    <p class="text-muted mt-3">Web development gives instant satisfaction. You write a few lines of code and immediately see the result on the screen. It feels almost artistic — choosing colors, adjusting spacing...</p> 
+                    <a href="#" class="btn btn-primary mt-3">Read More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer bg-black py-4 mt-5">
+        <div class="container text-center">
+            <p class="m-0 text-secondary small">© Copyright 2025 Mohammad Azhaan. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+<style>
+    /* 1. GLOBAL VARIABLES (Same as Portfolio) */
+    :root {
+        --bg-dark: #1f2937;
+        --bg-darker: #111827;
+        --text-light: #f3f4f6;
+        --text-muted: #9ca3af;
+        --highlight: #60a5fa;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: var(--bg-dark);
+        color: var(--text-light);
+        padding-top: 70px; /* Space for fixed navbar */
+    }
+
+    /* 2. NAVBAR (Consistent) */
+    .bg-dark-custom {
+        background-color: rgba(17, 24, 39, 0.95);
+        backdrop-filter: blur(10px);
+    }
+    
+    .navbar-brand { color: var(--text-light) !important; }
+
+    .nav-link {
+        color: var(--text-muted) !important;
+        margin-left: 20px;
+        transition: color 0.3s;
+    }
+
+    .nav-link:hover, .nav-link.active {
+        color: var(--highlight) !important;
+    }
+
+    /* 3. CAROUSEL */
+    .carousel-img {
+        height: 500px; /* Reduced from 700px to look better on laptops */
+        object-fit: cover;
+        filter: brightness(0.6); /* Darkens image so text pops */
+    }
+
+    .bg-caption-blur {
+        background-color: rgba(0,0,0,0.5);
+        padding: 20px;
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+    }
+
+    /* 4. BLOG CARDS */
+    .section-padding { padding: 80px 0; }
+    
+    .text-highlight { color: var(--highlight); }
+
+    .blog-card {
+        background-color: var(--bg-darker);
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 12px;
+        padding: 40px;
+        transition: transform 0.3s, box-shadow 0.3s;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    .blog-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+        border-color: var(--highlight);
+    }
+
+    /* 5. BUTTONS */
+    .btn-primary {
+        background-color: var(--highlight);
+        border: none;
+        color: #000;
+        font-weight: 600;
+        padding: 10px 25px;
+    }
+    
+    .btn-primary:hover {
+        background-color: #3b82f6;
+        color: #fff;
+    }
+</style>
